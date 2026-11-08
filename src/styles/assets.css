@@ -1,0 +1,5 @@
+/* Content assets selected by this site. Reusable presentation is in Core. */
+:root {
+  --martlet-site-hero-image: url('/assets/images/hero/martlet-hero-2172.webp');
+  --martlet-site-hero-image-narrow: url('/assets/images/hero/martlet-hero-960.webp');
+}

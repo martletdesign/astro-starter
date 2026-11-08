@@ -11,6 +11,7 @@
     "@martlet/astro": "1.0.0",
     "@martlet/theme": "2.0.0",
     "@astrojs/markdown-remark": "7.3.1",
-    "astro": "7.3.2"
+    "astro": "7.3.2",
+    "@martlet/core": "git+https://github.com/martletdesign/core.git#d069ac219bc10760d000feadd5dfcff801664e42"
   }
 }
