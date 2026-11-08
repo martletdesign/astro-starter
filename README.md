@@ -1,12 +1,12 @@
-# Martlet — Astro reference site
+# Martlet — Astro starter
 
 A **cloneable, content-neutral Astro project** extracted from the working [jameshoward.us](https://jameshoward.us/) design. Martlet retains blue, gold and white, with its own warmer bronze-and-gold emphasis. The original site remains the structural and behavioral reference; the default color emphasis is intentionally warmer.
 
 ## Clone and run
 
 ```bash
-git clone https://github.com/martletdesign/site.git
-cd site
+git clone https://github.com/martletdesign/astro-starter.git
+cd astro-starter
 npm ci
 npm run dev
 ```
@@ -33,3 +33,11 @@ The original source code is `k3jph/k3jph.github.io` at commit `d52c7193ea9090ed1
 ## Identity and imagery
 
 The masthead, navigation, footer and favicon use the design language's **gold martlet on a blue field** (`public/assets/mark.svg`), not James Howard's personal arms or `owner.svg`. The panoramic sunset artwork is copied from the approved Martlet Jekyll reference. The warm bronze/gold composition deliberately differs from jameshoward.us while retaining Martlet blue as a supporting color. No site generated from this template represents an affiliation with James Howard or any personal institution.
+
+## Repository roles
+
+This repository was renamed from `site` to `astro-starter`; update existing remotes with `git remote set-url origin https://github.com/martletdesign/astro-starter.git`. Your working directory can keep its existing name.
+
+The full reference application lives at [`martletdesign/astro/reference`](https://github.com/martletdesign/astro/tree/develop/reference), alongside the npm component package. This starter remains an independent clonable application; it is not bundled in the Astro npm package. `website` remains the primary design website.
+
+The starter currently depends on unreleased Core `site.css` via a pinned Git commit. Keep that pin until a Core release exports the extracted site grammar, then update the registry version and lockfile together. Switching to the currently published Core release would remove that required export.

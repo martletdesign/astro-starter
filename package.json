@@ -1,5 +1,5 @@
 {
-  "name": "martlet-source-neutral-baseline",
+  "name": "martlet-astro-starter",
   "private": true,
   "type": "module",
   "scripts": {
